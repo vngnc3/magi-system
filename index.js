@@ -47,4 +47,5 @@ client.on('interactionCreate', async interaction => {
 });
 
 // Login to Discord with your client's token
+require('dotenv').config();
 client.login(process.env.DISCORD_TOKEN);
